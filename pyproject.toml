@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ncua-call-report"
+version = "0.1"
+description = "Credit Union Quarterly Data"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0.1"
+fredapi = "^0.5.2"
+pandas = "^2.2.2"
+numpy = "^2.1.1"
+scikit-learn = "^1.5.2"
+statsmodels = "^0.14.3"
+ipykernel = "^6.29.5"
+pandas-datareader = "^0.10.0"
+beautifulsoup4 = "^4.12.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
